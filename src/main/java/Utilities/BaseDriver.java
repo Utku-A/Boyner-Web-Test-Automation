@@ -48,6 +48,6 @@ public class BaseDriver {
     }
 
     @Rule
-    public RetryRule retryRule = new RetryRule(2);
+    public RetryRule retryRule = new RetryRule(3);
 
 }
