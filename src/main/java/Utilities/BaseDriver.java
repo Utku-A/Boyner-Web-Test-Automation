@@ -21,6 +21,7 @@ public class BaseDriver {
     public void setUP() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         logger.info("----------------------------------------------------------");
     }
 
