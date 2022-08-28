@@ -1,7 +1,6 @@
 package Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.log4j.Appender;
 import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Assert;
@@ -10,7 +9,6 @@ import org.junit.Rule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 

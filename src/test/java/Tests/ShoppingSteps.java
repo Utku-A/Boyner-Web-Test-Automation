@@ -47,8 +47,6 @@ public class ShoppingSteps extends BaseDriver {
                 .productQuantity("2")
                 .deleteProduct();
 
-        pause(5000);
-
     }
 
 }
